@@ -855,6 +855,11 @@ form.email textarea {
           margin-left:32%;
       }
 }
+@media (min-width:1200px) and (max-width:750px){
+    #name{
+        font-size:2em;
+    }
+}
 @media (orientation: portrait) and (max-width:550px){
      .myButton{
         margin-left:33%;
