@@ -11,6 +11,11 @@ $(document).ready(function () {
             scrollOutside: "false"
         });
 	});
+    function resizeBackground() {
+        $("#wrap").height(viewportHeight);
+        $("#wrap").width(viewportWidth);
+    }
+    resizeBackground();
     
     //Function to move over navigation bar as page resizes
     var viewportWidth = $(window).width();
@@ -150,8 +155,7 @@ $(document).ready(function () {
     })
     
 
-    function resizeBackground() {
-        $("#wrap").height(viewportHeight);
-    }
-    resizeBackground();
+   
+    
+    
 });
