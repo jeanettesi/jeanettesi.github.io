@@ -150,7 +150,7 @@ $(document).ready(function () {
            
         }
         
-    })
+    });
     function resizeHeight{
          $("#wrap").height(viewportHeight);
     }
