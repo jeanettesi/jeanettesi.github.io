@@ -143,7 +143,7 @@ $(document).ready(function () {
     $("#name").click(function () {
         if ($("#wrap").offset().left !== 0) {
             $("#wrap").animate( {right: '0%'} );
-    
+            
            
         }
         
@@ -151,5 +151,6 @@ $(document).ready(function () {
     
     if (viewportHeight > 1000 && viewportWidth < 750){
         ("#name").css("font-size", "3em");
+        ("$nav").css("font-size", "3em");
     }
 });
