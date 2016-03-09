@@ -149,8 +149,10 @@ $(document).ready(function () {
         
     })
     
-    if (viewportHeight > 1000 && viewportWidth < 750){
-        ("#name").css("font-size", "3em");
-        ("$nav").css("font-size", "3em");
+    var bg = jQuery("#bg1, #bg2");
+    jQuery(window).resize("resizeBackground");
+    function resizeBackground() {
+        bg.height(jQuery(window).height()+60);
     }
+    resizeBackground();
 });
