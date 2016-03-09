@@ -855,7 +855,7 @@ form.email textarea {
           margin-left:32%;
       }
 }
-@media (min-height:1200px) and (max-width:750px){
+@media (max-height:1200px) and (max-width:750px){
     #name{
         font-size:3em;
     }
