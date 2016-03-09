@@ -151,7 +151,11 @@ $(document).ready(function () {
         }
         
     });
-    
+    $(window).resize("resizeBackground");
+    function resizeBackground() {
+        $("#wrap").height(viewportHeight);
+    }
+    resizeBackground();
    
     
     
