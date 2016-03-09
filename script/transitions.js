@@ -11,11 +11,7 @@ $(document).ready(function () {
             scrollOutside: "false"
         });
 	});
-    function resizeBackground() {
-        $("#wrap").height(viewportHeight);
-        $("#wrap").width(viewportWidth);
-    }
-    resizeBackground();
+  
     
     //Function to move over navigation bar as page resizes
     var viewportWidth = $(window).width();
@@ -23,6 +19,8 @@ $(document).ready(function () {
     $(window).resize(function() {
         viewportWidth = $(window).width();
         viewportHeight = $(window).height();
+        $("#wrap").height(viewportHeight);
+        $("#wrap").width(viewportWidth);
         if ($("#wrap").offset().left !== 0) {
             if (viewportHeight >= viewportWidth){
             $("#wrap").animate( {right: '93%'} );    
@@ -37,6 +35,7 @@ $(document).ready(function () {
             } 
             }
        }
+        
     });
     //Function to slide over cover picture into navigation bar on click
     $("#design").click(function () {
