@@ -19,8 +19,7 @@ $(document).ready(function () {
     $(window).resize(function() {
         viewportWidth = $(window).width();
         viewportHeight = $(window).height();
-        $("#wrap").height(viewportHeight);
-        $("#wrap").width(viewportWidth);
+       
         if ($("#wrap").offset().left !== 0) {
             if (viewportHeight >= viewportWidth){
             $("#wrap").animate( {right: '93%'} );    
@@ -152,8 +151,10 @@ $(document).ready(function () {
         }
         
     })
-    
-
+    function resizeHeight{
+         $("#wrap").height(viewportHeight);
+    }
+    resizeHeight;
    
     
     
