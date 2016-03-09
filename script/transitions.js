@@ -149,4 +149,7 @@ $(document).ready(function () {
         
     })
     
+    if (viewportHeight > 1000 && viewportWidth < 750){
+        ("#name").css("font-size", "3em");
+    }
 });
