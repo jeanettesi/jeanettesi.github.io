@@ -857,7 +857,13 @@ form.email textarea {
 }
 @media (min-width:1200px) and (max-width:750px){
     #name{
+        font-size:3em;
+    }
+    #motto{
         font-size:2em;
+    }
+    #nav{
+        font-size:3em;
     }
 }
 @media (orientation: portrait) and (max-width:550px){
