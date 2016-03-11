@@ -154,6 +154,11 @@ $(document).ready(function () {
     $(window).resize("resizeBackground");
     function resizeBackground() {
         $("#wrap").height(viewportHeight);
+        $("#designPage").height(viewportHeight);
+        $("#writingPage").height(viewportHeight);
+        $("#resumePage").height(viewportHeight);
+        $("#aboutPage").height(viewportHeight);
+        $("#contactPage").height(viewportHeight);
     }
     resizeBackground();
    
