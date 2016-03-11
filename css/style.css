@@ -8,8 +8,8 @@ html, body{
 
 #wrap{
   position:absolute;
-  height:100%;
-  width:100%;
+  max-height:100%;
+  max-width:100%;
   top:0px;
   background: url('../images/homepageBW.png') no-repeat center center scroll; 
   /*-webkit-background-size: cover;
