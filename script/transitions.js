@@ -151,11 +151,11 @@ $(document).ready(function () {
         }
         
     });
-    $(window).resize("resizeBackground");
+    /*$(window).resize("resizeBackground");
     function resizeBackground() {
         $("#wrap").height(viewportHeight);
     }
-    resizeBackground();
+    resizeBackground();*/
    
     
     
