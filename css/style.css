@@ -901,7 +901,6 @@ and (orientation : landscape) {
     h2{
         font-size:1.5em;
         padding-top:15px;
-        padding-bottom:3px;
     }
     .bodytext{
         width:80%;
