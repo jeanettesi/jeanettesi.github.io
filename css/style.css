@@ -888,4 +888,13 @@ form.email textarea {
       }
     }
 
-
+@media only screen 
+and (min-device-width : 375px) 
+and (max-device-width : 667px) {
+    #name{
+        font-size:2em;
+    }
+    #nav{
+        font-size:2em;
+    }
+}
