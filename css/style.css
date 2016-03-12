@@ -914,9 +914,9 @@ and (orientation : landscape) {
         display:none;
     }
     .designgrid{
-        width:85%;
+        width:80%;
     }
     .sample{
-        padding-bottom:15%;
+        padding-bottom:12%;
     }
 }
