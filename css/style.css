@@ -901,10 +901,11 @@ and (orientation : landscape) {
     h2{
         font-size:1.5em;
         padding-top:15px;
+        padding-bottom:10px;
     }
     .bodytext{
         width:80%;
         font-size:0.3em;
-        line-height:125%;
+        line-height:175%;
     }
 }
