@@ -910,4 +910,10 @@ and (orientation : landscape) {
     #aboutme{
         line-height:175%;
     }
+    h3{
+        display:none;
+    }
+    .designgrid{
+        width:85%;
+    }
 }
