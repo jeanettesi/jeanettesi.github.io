@@ -908,9 +908,6 @@ and (orientation : landscape) {
         font-size:0.25em;
         line-height:175%;
     }
-    hr{
-        margin-top:5px;
-    }
     #aboutme{
         line-height:175%;
     }
