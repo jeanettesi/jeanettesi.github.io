@@ -890,7 +890,7 @@ form.email textarea {
 
 @media only screen 
 /*and (min-device-width : 375px) */
-and (max-device-width : 667px) 
+and (max-width : 667px) 
 and (orientation : landscape) {
     #name{
         font-size:3em;

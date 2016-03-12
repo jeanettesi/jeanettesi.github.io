@@ -151,13 +151,14 @@ $(document).ready(function () {
         }
         
     });
+    /*
     $(window).resize("resizeBackground");
     function resizeBackground() {
         $("#wrap").height(viewportHeight);
         $(".section").height(viewportHeight);
        
     }
-    resizeBackground();
+    resizeBackground();*/
    
     
     
