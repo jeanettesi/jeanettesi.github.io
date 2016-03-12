@@ -905,7 +905,7 @@ and (orientation : landscape) {
     }
     .bodytext{
         width:80%;
-        font-size:0.3em;
+        font-size:0.25em;
         line-height:175%;
     }
     hr{
