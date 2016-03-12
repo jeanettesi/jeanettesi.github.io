@@ -920,4 +920,7 @@ and (orientation : landscape) {
     .sample{
         padding-bottom:12%;
     }
+    .copyright{
+        font-size:0.1em;
+    }
 }
