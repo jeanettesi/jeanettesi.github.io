@@ -911,4 +911,7 @@ and (orientation : landscape) {
     hr{
         margin-top:5px;
     }
+    #aboutme{
+        line-height:175%;
+    }
 }
