@@ -893,9 +893,9 @@ and (min-device-width : 375px)
 and (max-device-width : 667px) 
 and (orientation : landscape) {
     #name{
-        font-size:2em;
+        font-size:2.5em;
     }
     #nav{
-        font-size:2em;
+        font-size:3em;
     }
 }
