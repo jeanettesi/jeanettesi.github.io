@@ -906,6 +906,7 @@ and (orientation : landscape) {
         width:80%;
         font-size:0.25em;
         line-height:175%;
+        padding-bottom:2px;
     }
     #aboutme{
         line-height:125%;
