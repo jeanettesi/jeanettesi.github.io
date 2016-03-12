@@ -15,7 +15,7 @@ $(document).ready(function () {
     
     //Function to move over navigation bar as page resizes
     var viewportWidth = $(window).width();
-    var viewportHeight = $(window).height();
+    var viewportHeight = $(window).innerHeight();
     $(window).resize(function() {
         viewportWidth = $(window).width();
         viewportHeight = $(window).height();
@@ -151,13 +151,13 @@ $(document).ready(function () {
         }
         
     });
-    /*$(window).resize("resizeBackground");
+    $(window).resize("resizeBackground");
     function resizeBackground() {
         $("#wrap").height(viewportHeight);
         $(".section").height(viewportHeight);
        
     }
-    resizeBackground();*/
+    resizeBackground();
    
     
     
