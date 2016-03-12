@@ -916,4 +916,7 @@ and (orientation : landscape) {
     .designgrid{
         width:85%;
     }
+    .sample{
+        padding-bottom:15%;
+    }
 }
