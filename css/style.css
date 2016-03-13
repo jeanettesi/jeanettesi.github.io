@@ -928,4 +928,12 @@ and (orientation : landscape) {
     .vanish{
         display:none;
     }
+    .caption{
+          font-size:90%;
+          top:10%;
+      }
+      .writingcaption{
+          font-size:80%;
+          top:10%;
+      }
 }
