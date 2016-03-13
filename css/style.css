@@ -910,7 +910,7 @@ and (orientation : landscape) {
     }
     #aboutme{
         line-height:125%;
-        font-size:0.2em;
+        font-size:0.15em;
     }
     h3{
         display:none;
