@@ -911,6 +911,7 @@ and (orientation : landscape) {
     #aboutme{
         line-height:125%;
         font-size:0.15em;
+        padding-bottom: 3%;
     }
     h3{
         display:none;
@@ -923,5 +924,8 @@ and (orientation : landscape) {
     }
     .copyright{
         font-size:0.1em;
+    }
+    .vanish{
+        display:none;
     }
 }
