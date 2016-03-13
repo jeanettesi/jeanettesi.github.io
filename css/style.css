@@ -929,11 +929,11 @@ and (orientation : landscape) {
         display:none;
     }
     .caption{
-          font-size:90%;
+          font-size:60%;
           top:2%;
       }
       .writingcaption{
-          font-size:80%;
+          font-size:40%;
           top:2%;
       }
 }
