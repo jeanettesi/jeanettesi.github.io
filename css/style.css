@@ -930,10 +930,10 @@ and (orientation : landscape) {
     }
     .caption{
           font-size:90%;
-          top:10%;
+          top:2%;
       }
       .writingcaption{
           font-size:80%;
-          top:10%;
+          top:2%;
       }
 }
